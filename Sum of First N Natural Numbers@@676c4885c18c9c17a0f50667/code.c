@@ -3,9 +3,9 @@ int main() {
     int a;
     scanf("%d",&a);
     int s = 0;
-    for(int i=1;i<=a;i++){
+    while(a>0){
         s=s+a;
-        a--;
+        a=a-1;
     }
     printf("%d",s);
     return 0;
