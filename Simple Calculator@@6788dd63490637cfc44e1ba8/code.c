@@ -13,7 +13,7 @@ int main() {
     else if(c=='*'){
         printf("%d",a*b);
     }
-    else if(a=='/'){
+    else if(a =='/'){
         printf("%d",a/b);
     }
     else{
