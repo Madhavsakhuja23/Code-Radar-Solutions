@@ -9,5 +9,7 @@ int main() {
         r[i]=n;
     }
     printf("%d",r[0]);
+    int k;
+    scanf("%d",&k);
     return 0;
 }
