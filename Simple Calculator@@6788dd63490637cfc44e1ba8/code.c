@@ -6,24 +6,15 @@ int main() {
     if(d=='+'){
         printf("%.0f",a+b);
     }
-    // else if(d=='-'){
-    //     float f;
-    //     f=a-b;
-    //     int e=int(f);
-    //     printf("%d",e);
-    // }
-    // else if(d=='*'){
-    //     float f;
-    //     f=a*b;
-    //     int e=int(f);
-    //     printf("%d",e);
-    // }
-    // else if(d=='/'){
-    //   float f;
-    //     f=a+b;
-    //     int e=int(f);
-    //     printf("%d",e);
-    // }
+    else if(d=='-'){
+        printf("%.0f",a-b);
+    }
+    else if(d=='*'){
+        printf("%.0f",a*b);
+    }
+    else if(d=='/'){
+        printf("%.0f",a/b);
+    }
     else{
         printf("error");
     }
