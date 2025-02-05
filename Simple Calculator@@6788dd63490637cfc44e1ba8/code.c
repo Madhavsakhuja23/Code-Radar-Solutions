@@ -13,19 +13,19 @@ int main() {
         float f;
         f=a-b;
         int e=int(f);
-        printf("%d",a-b);
+        printf("%d",e);
     }
     else if(d=='*'){
         float f;
         f=a*b;
         int e=int(f);
-        printf("%d",a*b);
+        printf("%d",e);
     }
     else if(d=='/'){
-        float f;
-        f=a/b;
+      float f;
+        f=a+b;
         int e=int(f);
-        printf("%d",a/b);
+        printf("%d",e);
     }
     else{
         printf("error");
