@@ -2,7 +2,8 @@
 int main() {
     char c;
     scanf("%c",&c);
-    int v =c;
-    printf("%d",v)
+    if(printf("%d",c)>0){
+        printf("yes")
+    }
     return 0;
 }
