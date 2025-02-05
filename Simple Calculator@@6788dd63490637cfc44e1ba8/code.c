@@ -4,10 +4,7 @@ int main() {
     char d;
     scanf("%f %f %c",&a,&b,&d);
     if(d=='+'){
-        float f;
-        f=a+b;
-        int e=int(f);
-        printf("%d",e);
+        printf("%d",a+b);
     }
     // else if(d=='-'){
     //     float f;
