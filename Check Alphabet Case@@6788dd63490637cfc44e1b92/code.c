@@ -2,8 +2,14 @@
 int main() {
     char c;
     scanf("%c",&c);
-    if(printf("%d",c)>0){
-        printf("yes")
+    if(a>=65 && a<=90){
+        printf("Uppercase");
+    }
+    else if(a>=97 && a<=122){
+        printf("Lowercase");
+    }
+    else{
+        printf("Not an alphabet")
     }
     return 0;
 }
