@@ -9,24 +9,24 @@ int main() {
         int e=int(f);
         printf("%d",e);
     }
-    else if(d=='-'){
-        float f;
-        f=a-b;
-        int e=int(f);
-        printf("%d",e);
-    }
-    else if(d=='*'){
-        float f;
-        f=a*b;
-        int e=int(f);
-        printf("%d",e);
-    }
-    else if(d=='/'){
-      float f;
-        f=a+b;
-        int e=int(f);
-        printf("%d",e);
-    }
+    // else if(d=='-'){
+    //     float f;
+    //     f=a-b;
+    //     int e=int(f);
+    //     printf("%d",e);
+    // }
+    // else if(d=='*'){
+    //     float f;
+    //     f=a*b;
+    //     int e=int(f);
+    //     printf("%d",e);
+    // }
+    // else if(d=='/'){
+    //   float f;
+    //     f=a+b;
+    //     int e=int(f);
+    //     printf("%d",e);
+    // }
     else{
         printf("error");
     }
