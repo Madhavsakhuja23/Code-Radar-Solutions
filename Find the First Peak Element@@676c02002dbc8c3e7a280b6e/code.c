@@ -2,11 +2,9 @@
 int main() {
     int n;
     scanf("%d",&n);
+    int j[n];
     for(int i=1;i<=n;i++){
-        int a;
-        scanf("%d",&a);
-        int j[]={};
-        j[i]=a;
+        scanf("%d\n",&j[i]);
     }
     int h=j[0];
     for(int i=i;i<n;i++){
