@@ -16,6 +16,5 @@ int main() {
     int n;
     scanf("%d",&n);
     prime(n);
-    printf("Prime");
     return 0;
 }
