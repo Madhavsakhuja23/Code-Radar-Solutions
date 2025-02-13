@@ -4,7 +4,6 @@ int main() {
     scanf("%d",&n);
     if(n==2){
             printf("Prime");
-            break;
         }
     for(int i=2;i<n;i++){
         if(n%i==0){
