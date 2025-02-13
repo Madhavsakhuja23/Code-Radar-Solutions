@@ -1,7 +1,5 @@
 #include <stdio.h>
-int main() {
-    int n;
-    scanf("%d",&n);
+void prime(int n){
     if(n==2){
             printf("Prime");
             return 0;
@@ -13,6 +11,11 @@ int main() {
         }
         
     }
+}
+int main() {
+    int n;
+    scanf("%d",&n);
+    prime(n);
     printf("Prime");
     return 0;
 }
