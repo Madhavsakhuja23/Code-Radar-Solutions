@@ -2,7 +2,7 @@
 int main(){
     int n,b;
     scanf("%d %d",&n,&b);
-    char str[32];
+    int str[32];
     int i=0;
     while(n>0){
         str[i]=n%2;
