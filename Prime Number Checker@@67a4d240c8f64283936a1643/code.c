@@ -1,5 +1,5 @@
 #include <stdio.h>
-void prime(int n){
+int prime(int n){
     if(n<2){
             printf("Not Prime");
             return 0;
