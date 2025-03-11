@@ -10,9 +10,9 @@ int main(){
     o=0;
     e=0;
     for(int j=0;j<n;j++){
-        if((arr[j])%2==0)(
+        if(arr[j]%2==0){
             e++;
-        )
+        }
         else{
             o++;
         }
