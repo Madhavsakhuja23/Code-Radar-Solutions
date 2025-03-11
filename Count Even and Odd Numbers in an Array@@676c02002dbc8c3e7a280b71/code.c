@@ -17,7 +17,7 @@ int main(){
             o++;
         }
     }
-    printf("%d",e);
+    printf("%d ",e);
     printf("%d",o);
     return 0;
 }
