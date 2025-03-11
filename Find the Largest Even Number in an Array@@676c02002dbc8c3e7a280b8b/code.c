@@ -8,13 +8,20 @@ int main(){
     }
     int b;
     b=arr[0];
+    int c = 0;
     for(int j=0;j<n;j++){
         if(arr[j]%2==0){
+            c++;
             if(arr[j]>b){
                 b=arr[j];
             }
         }
     }
-    printf("%d",b);
+    if(c>0){
+        printf("%d",b);
+    }
+    else{
+        printf("-1");
+    }
     return 0;
 }
