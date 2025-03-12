@@ -1,17 +1,19 @@
 #include <stdio.h>
-int prime(int n){
+void prime(int n);
+void prime(int n){
     if(n<2){
             printf("Not Prime");
-            return 0;
         }
-    for(int i=2;i<n;i++){
+    else{
+        for(int i=2;i<n;i++){
         if(n%i==0){
             printf("Not Prime");
-            return 0;
         }
-        
+        else{
+            printf("Prime");
+        }
+         }
     }
-    return 1;
 }
 int main() {
     int n;
