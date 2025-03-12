@@ -11,7 +11,7 @@ int main() {
         if(h<j[i]){
             h=j[i];
             printf("%d",h);
-            break;
+            // break;
         }
         else{
             printf("-1");
