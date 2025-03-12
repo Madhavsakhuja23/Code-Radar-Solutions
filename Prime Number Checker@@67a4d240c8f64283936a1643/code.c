@@ -1,4 +1,5 @@
 #include <stdio.h>
+void prime(int n);
 int main() {
     int n;
     scanf("%d", &n);
