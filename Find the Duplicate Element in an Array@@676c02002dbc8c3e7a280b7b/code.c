@@ -12,7 +12,7 @@ int main(){
             printf("%d",d);
         }
         else{
-            d=arr[i+1];
+            d=arr[i];
         }
     }
 }
