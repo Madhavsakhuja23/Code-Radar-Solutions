@@ -10,9 +10,12 @@ int main() {
     for(int i=1;i<n;i++){
         if(h<j[i]){
             h=j[i];
+            printf("%d",h);
             break;
         }
+        else{
+            printf("-1");
+        }
     }
-    printf("%d",h);
     return 0;
 }
