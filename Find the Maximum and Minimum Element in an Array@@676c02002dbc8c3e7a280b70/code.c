@@ -9,12 +9,12 @@ int main(){
     int b=arr[0];
     int s=arr[n];
     for(int i=0;i<n;i++){
-        if(arr[i]>b){
+        if(arr[i]>=b){
             b=arr[i];
         }
     }
     for(int i=n;i>=0;i--){
-        if(arr[i]<s){
+        if(arr[i]<=s){
             s=arr[i];
         }
     }
