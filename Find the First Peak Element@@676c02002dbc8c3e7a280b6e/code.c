@@ -13,9 +13,9 @@ int main() {
             printf("%d",h);
             break;
         }
-        // else{
-        //     printf("-1");
-        // }
+        else{
+            printf("-1");
+        }
     }
     return 0;
 }
