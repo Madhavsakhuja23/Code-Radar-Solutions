@@ -1,5 +1,12 @@
 #include <stdio.h>
-
+int main() {
+    int n;
+    scanf("%d", &n);
+    
+    prime(n);
+    
+    return 0;
+}
 void prime(int n) {
     if (n < 2) {
         printf("Not Prime\n");
@@ -14,13 +21,4 @@ void prime(int n) {
     }
 
     printf("Prime\n");  
-}
-
-int main() {
-    int n;
-    scanf("%d", &n);
-    
-    prime(n);
-    
-    return 0;
 }
