@@ -10,6 +10,7 @@ int main() {
     for(int i=1;i<n;i++){
         if(h<j[i]){
             h=j[i];
+            break;
         }
     }
     printf("%d",h);
