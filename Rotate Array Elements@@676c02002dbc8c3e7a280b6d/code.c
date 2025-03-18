@@ -9,7 +9,7 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    k=k%n;
+    // k=k%n;
     for(int i=0;i<=n-1;i++){
         arr1[(i+k)%n]=arr[i];
     }
