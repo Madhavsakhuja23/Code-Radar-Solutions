@@ -26,7 +26,7 @@ int main(){
         }
     }
     for(int i=0;i<n;i++){
-        fin[i]=new1[i]+new2[i];
+        fin[i]=new2[i]+new1[i];
     }
     for(int i=0;i<n;i++){
         printf("%d\n",fin[i]);
