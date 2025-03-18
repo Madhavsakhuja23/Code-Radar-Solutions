@@ -1,15 +1,20 @@
-#include <stdio.h>
-int main() {
-    int N;
-    int r[];
-    scanf("%d",&N);
-    for(int i =0;i<N;i++){
-        int n;
-        scanf("%d",&n);
-        r[i]=n;
+// Your code here...
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n],arr1[n];
+    for(int i=0;i<=n-1;i++){
+        scanf("%d",&arr[i]);
     }
-    printf("%d",r[0]);
     int k;
     scanf("%d",&k);
+    k=k%n;
+    for(int i=0;i<=n-1;i++){
+        arr1[(i+k)%n]=arr[i];
+    }
+    for(int i=0;i<=n-1;i++){
+        printf("%d\n",arr1[i]);
+    }
     return 0;
 }
