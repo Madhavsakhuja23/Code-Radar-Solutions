@@ -10,7 +10,7 @@ int main(){
     int k;
     scanf("%d",&k);
     for(int i=0;i<=n-1;i++){
-        if(i<k){
+        if(i>k){
             new1[i]=0;
         }
         else{
@@ -18,7 +18,7 @@ int main(){
         }
     }
     for(int i=0;i<=n-1;i++){
-        if(i>k){
+        if(i<k){
             new2[i]=arr[i];
         }
         else{
