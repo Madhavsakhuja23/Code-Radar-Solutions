@@ -13,7 +13,7 @@ int main(){
             if(temp==arr[j]){
                 fre=fre+1;
             }
-            printf("%d %d",temp,fre)
+            printf("%d %d",temp,fre);
         }
     }
     return 0;
