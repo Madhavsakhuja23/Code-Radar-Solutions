@@ -8,8 +8,8 @@ int main(){
     }
     for(int i=0;i<n;i++){
         int temp = arr[i];
-        int fre = 1;
-        for(int j=1;j<n;j++){
+        int fre = 0;
+        for(int j=0;j<n;j++){
             if(temp==arr[j]){
                 fre=fre+1;
             }
