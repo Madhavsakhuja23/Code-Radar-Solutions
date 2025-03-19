@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <limits.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -6,7 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int l=arr[0],sl=-1;
+    int l=arr[0],sl=INT_MIN;
     for(int i=1;i<n;i++){
         if(arr[i]>l){
             sl=l;
