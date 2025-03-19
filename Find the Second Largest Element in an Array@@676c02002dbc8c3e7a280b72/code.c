@@ -17,6 +17,11 @@ int main(){
             sl=arr[i];
         }
     }
-    printf("%d",sl);
+    if(sl==INT_MIN){
+        printf("-1");
+    }
+    else{
+        printf("%d",sl)
+    }
     return 0;
 }
