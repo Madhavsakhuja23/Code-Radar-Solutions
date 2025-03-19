@@ -20,12 +20,11 @@ int main(){
         }
         if(fre>n/2){
             printf("%d",arr[i]);
-        }
-        else{
-            printf("-1");
+            return 0;
         }
 
     }
+    printf("-1");
     return 0;
 
 }
