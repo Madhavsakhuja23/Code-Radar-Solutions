@@ -21,7 +21,7 @@ int main(){
         printf("-1");
     }
     else{
-        printf("%d",sl)
+        printf("%d",sl);
     }
     return 0;
 }
