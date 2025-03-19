@@ -12,7 +12,7 @@ int main(){
             sl=l;
             l=arr[i];
         }
-        else if(arr[i]>sl && arr[i]<l){
+        else if(arr[i]>sl && arr[i]!=l){
             sl=arr[i];
         }
     }
