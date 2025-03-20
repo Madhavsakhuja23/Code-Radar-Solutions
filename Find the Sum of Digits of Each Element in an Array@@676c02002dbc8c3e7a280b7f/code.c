@@ -8,6 +8,9 @@ int main(){
     }
     for(int i=0;i<n;i++){
         int temp =arr[i];
+        if(temp<0){
+            temp=temp*-1;
+        }
         int s=0;
         while(temp>0){
             s=s+temp%10;
