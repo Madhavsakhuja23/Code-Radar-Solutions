@@ -12,10 +12,13 @@ int main(){
             continue;
         }
         for(int j=2;j<arr[i];j++){
-            if(arr[i]%j!=0){
+            if(arr[i]%j==0){
                 continue;
             }
-            prime++;
+            else{
+                prime++;
+                continue;
+            }
         }
         
     }
