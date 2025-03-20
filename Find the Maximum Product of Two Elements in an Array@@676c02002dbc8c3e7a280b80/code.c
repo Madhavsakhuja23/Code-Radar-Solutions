@@ -8,12 +8,23 @@ int main(){
     }
     int l=arr[0],sl=-1;
     for(int i=0;i<n;i++){
+        if(arr[i]>0){
         if(arr[i]>l){
             sl=l;
             l=arr[i];
         }
         else if(arr[i]>sl && arr[i]!=l){
             sl=arr[i];
+        }
+        }
+        else{
+            if(arr[i]<l){
+            sl=l;
+            l=arr[i];
+        }
+        else if(arr[i]<sl && arr[i]!=l){
+            sl=arr[i];
+        }
         }
     }
     printf("%d",l*sl);
