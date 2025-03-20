@@ -9,11 +9,11 @@ int main(){
     }
     int l=arr[0],sl=INT_MIN;
     for(int i=1;i<n;i++){
-        if(arr[i]>l){
+        if(arr[i]<l){
             sl=l;
             l=arr[i];
         }
-        else if(arr[i]>sl && arr[i]!=l){
+        else if(arr[i]<sl && arr[i]!=l){
             sl=arr[i];
         }
     }
