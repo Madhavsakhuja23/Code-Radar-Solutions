@@ -15,8 +15,9 @@ int main(){
             if(arr[i]%j!=0){
                 continue;
             }
+            prime++;
         }
-        prime++;
+        
     }
     printf("%d",prime);
     return 0;
