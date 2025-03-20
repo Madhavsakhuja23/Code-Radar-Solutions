@@ -12,10 +12,10 @@ int main(){
             continue;
         }
         for(int j=2;j<arr[i];j++){
-            if(arr[i]%j!=0){
-                prime++;
+            if(arr[i]%j==0){
                 continue;
             }
+            prime++;
         }
     }
     printf("%d",prime);
