@@ -20,10 +20,10 @@ int main(){
     int d1=arr[n-1]-arr[n-2];
     int d2=arr[1]-arr[0];
     if(d1>d2){
-        printf("%d %d",arr[1],arr[0]);
+        printf("%d %d",arr[0],arr[1]);
     }
     else{
-        printf("%d %d",arr[n-1],arr[n-2]);
+        printf("%d %d",arr[n-2],arr[n-1]);
     }
     return 0;
 }
