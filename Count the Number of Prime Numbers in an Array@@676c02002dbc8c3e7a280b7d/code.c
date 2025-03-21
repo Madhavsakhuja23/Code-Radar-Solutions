@@ -22,6 +22,6 @@ int main(){
         
         
     }
-    printf("%d",n-nprime+p);
+    printf("%d",p);
     return 0;
 }
