@@ -2,26 +2,23 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[n],prime=0;
+    int arr[n],nprime=0;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
         if(arr[i]==2){
-            prime++;
-            continue;
+            nprime++;
         }
+        else{
         for(int j=2;j<arr[i];j++){
             if(arr[i]%j==0){
-                continue;
+                nprime++;
             }
-            else{
-                prime++;
-                continue;
-            }
+        }
         }
         
     }
-    printf("%d",prime);
+    printf("%d",n-nprime);
     return 0;
 }
