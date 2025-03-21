@@ -10,15 +10,16 @@ int main(){
         if(arr[i]==2){
             p++;
         }
-        
+        else{
         for(int j=2;j<arr[i];j++){
             if(arr[i]%j==0){
                 nprime++;
                 continue;
             }
-            p++;
+
         }
-    
+        p++;
+        }
         
         
     }
