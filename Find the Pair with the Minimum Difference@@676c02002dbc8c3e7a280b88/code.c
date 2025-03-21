@@ -17,8 +17,8 @@ int main(){
             }
         }
     }
-    d1=arr[n-1]-arr[n-2];
-    d2=arr[1]-arr[0];
+    int d1=arr[n-1]-arr[n-2];
+    int d2=arr[1]-arr[0];
     if(d1>d2){
         printf("%d",d2);
     }
