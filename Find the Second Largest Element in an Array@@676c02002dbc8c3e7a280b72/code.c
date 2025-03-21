@@ -20,7 +20,7 @@ int main(){
         printf("-1");
     }
     else{
-        printf("%d",arr[n-1]);
+        printf("%d",arr[n-2]);
     }
     return 0;
 }
