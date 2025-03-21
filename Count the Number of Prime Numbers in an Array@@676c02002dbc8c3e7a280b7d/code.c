@@ -16,8 +16,9 @@ int main(){
                 nprime++;
                 continue;
             }
+            p++;
         }
-        p++
+    
         
         
     }
