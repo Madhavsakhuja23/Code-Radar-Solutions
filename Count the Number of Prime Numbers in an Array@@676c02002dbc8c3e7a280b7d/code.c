@@ -19,6 +19,6 @@ int main(){
         }
         
     }
-    printf("%d",n-nprime);
+    printf("%d",nprime);
     return 0;
 }
