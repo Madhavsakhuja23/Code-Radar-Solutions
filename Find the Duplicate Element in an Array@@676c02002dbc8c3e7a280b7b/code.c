@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<n;i++){
         int temp =arr[i];
         int c=0;
-        for(int j=0;j<n;j++){
+        for(int j=i;j<n;j++){
           if(temp==arr[j]){
             c++;
           }
