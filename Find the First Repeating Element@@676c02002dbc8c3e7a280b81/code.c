@@ -19,7 +19,7 @@ int main(){
             }
         }
         if(fre>1){
-            printf("%d",fre);
+            printf("%d",arr[i]);
             return 0;
         }
     }
