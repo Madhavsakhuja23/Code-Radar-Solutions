@@ -16,7 +16,7 @@ int main(){
             }
         }
     }
-    if(n==1){
+    if(n==1 || n=4){
         printf("-1");
     }
     else if(arr[0]==arr[1]){
