@@ -7,22 +7,20 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        if(arr[i]==2){
-            p++;
+        if(arr[i]<2){
+            np++;
         }
         else{
         for(int j=2;j<arr[i];j++){
             if(arr[i]%j==0){
                 nprime++;
-                continue;
             }
 
         }
-        p++;
         }
         
         
     }
-    printf("%d",p);
+    printf("%d",n-np);
     return 0;
 }
