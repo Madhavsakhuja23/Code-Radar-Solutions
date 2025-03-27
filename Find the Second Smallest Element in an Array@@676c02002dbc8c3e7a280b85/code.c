@@ -12,16 +12,10 @@ int main(){
             if(arr[j]>arr[j+1]){
                 int temp=arr[j];
                 arr[j]=arr[j+1];
-                arr[j+1]=arr[j];
+                arr[j+1]=temp;
             }
         }
     } 
-    if(arr[0]==arr[1]){
-        printf("-1");
-    }
-    else{
-        printf("%d",arr[1]);
-    }
-    
+    printf("%d",arr[n-2]);
     return 0;
 }
