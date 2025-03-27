@@ -1,5 +1,5 @@
 void factorialRange(int s, int e){
-    for(int i=s,i<=e;i++){
+    for(int i=s;i<=e;i++){
         if(i<0){
             i=-i;
         }
