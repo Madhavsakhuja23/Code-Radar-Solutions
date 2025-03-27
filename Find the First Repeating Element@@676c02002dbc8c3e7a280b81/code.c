@@ -20,6 +20,7 @@ int main(){
         }
         if(fre>1){
             printf("%d",fre);
+            return 0;
         }
     }
     printf("-1");
