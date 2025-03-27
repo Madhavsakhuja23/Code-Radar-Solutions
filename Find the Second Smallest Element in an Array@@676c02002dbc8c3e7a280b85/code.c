@@ -15,7 +15,18 @@ int main(){
                 arr[j+1]=temp;
             }
         }
-    } 
-    printf("%d",arr[1]);
+    }
+    if(n==1){
+        printf("-1");
+    }
+    else if(arr[0]==arr[1]){
+        printf("%d",arr[2]);
+    }
+    else if(arr[0]==arr[1] && arr[1]==arr[2]){
+        printf("-1");
+    }
+    else{
+        printf("%d",arr[1]);
+    }
     return 0;
 }
