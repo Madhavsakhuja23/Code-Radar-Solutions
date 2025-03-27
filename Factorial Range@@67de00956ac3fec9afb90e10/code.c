@@ -1,5 +1,5 @@
 void factorialRange(int s, int e){
-    if(e>s){
+    if(s>e){
         printf("Invalid range");
         return ;
     }
