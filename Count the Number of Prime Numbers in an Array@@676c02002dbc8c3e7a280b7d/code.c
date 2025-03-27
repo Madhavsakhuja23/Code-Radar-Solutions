@@ -8,7 +8,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(arr[i]<2){
-            np++;
+            nprime++;
         }
         else{
         for(int j=2;j<arr[i];j++){
