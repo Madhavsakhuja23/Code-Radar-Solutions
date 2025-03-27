@@ -14,6 +14,7 @@ int main(){
         for(int j=2;j<arr[i];j++){
             if(arr[i]%j==0){
                 nprime++;
+                continue;
             }
 
         }
@@ -21,6 +22,6 @@ int main(){
         
         
     }
-    printf("%d",n-np);
+    printf("%d",n-nprime);
     return 0;
 }
