@@ -19,7 +19,7 @@ int main(){
         temp[i]=temp[n-1-i];
     }
     for(int i=0;i<n;i++){
-        printf("%d ",arr[i]);
+        printf("%d ",temp[i]);
     }
     return 0;
 }
