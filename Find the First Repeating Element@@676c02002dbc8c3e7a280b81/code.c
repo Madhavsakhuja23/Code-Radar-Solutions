@@ -21,10 +21,7 @@ int main(){
         if(fre>1){
             printf("%d",fre);
         }
-        else{
-            printf("-1");
-            return 0;
-        }
     }
-    
+    printf("-1");
+    return 0;
 }
