@@ -8,6 +8,7 @@ int main(){
     }
     int k;
     scanf("%d",&k);
+    k=k%n;
     int temp[k];
     for(int i=1;i<=k;i++){
         temp[i-1]=arr[n-k+i-1];
